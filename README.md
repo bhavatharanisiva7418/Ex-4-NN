@@ -114,7 +114,8 @@ Normalize our dataset.
 
 8. Finally, call the functions confusion_matrix(), and the classification_report() in order to evaluate the performance of our classifier.
 
-<H3>Program:</H3> 
+<H3>Program:</H3>
+
 ```python
 
 import pandas as pd
@@ -152,6 +153,7 @@ predictions = mlp.predict(X_test)
 print(predictions)
 print(confusion_matrix(y_test,predictions))
 print(classification_report(y_test,predictions))
+
 ```
 
 <H3>Output:</H3>
