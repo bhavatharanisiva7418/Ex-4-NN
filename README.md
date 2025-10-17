@@ -1,8 +1,8 @@
 
-<H3>ENTER YOUR NAME:BHAVATHARANI S</H3>
-<H3>ENTER YOUR REGISTER NO:212223230032</H3>
+<H3>ENTER YOUR NAME : BHAVATHARANI S</H3>
+<H3>ENTER YOUR REGISTER NO: 212223230032</H3>
 <H3>EX. NO.4</H3>
-<H3>DATE:17.10.2025</H3>
+<H3>DATE:17-10-2025</H3>
 <H1 ALIGN =CENTER>Implementation of MLP with Backpropagation for Multiclassification</H1>
 <H3>Aim:</H3>
 To implement a Multilayer Perceptron for Multi classification
@@ -114,9 +114,9 @@ Normalize our dataset.
 
 8. Finally, call the functions confusion_matrix(), and the classification_report() in order to evaluate the performance of our classifier.
 
-<H3>Program:</H3>
+<H3>Program:</H3> 
 
-```python
+```PYTHON
 
 import pandas as pd
 import sklearn
@@ -153,16 +153,16 @@ predictions = mlp.predict(X_test)
 print(predictions)
 print(confusion_matrix(y_test,predictions))
 print(classification_report(y_test,predictions))
-
 ```
-
 <H3>Output:</H3>
 
-<img width="1248" height="324" alt="image" src="https://github.com/user-attachments/assets/877eba2b-e42a-40ae-9423-1c4084d1c3d9" />
+<img width="822" height="329" alt="image" src="https://github.com/user-attachments/assets/edab4965-009d-464f-97e4-890c403eb80c" />
+
+
 
 <H3>Program:</H3>
-```python
 
+```PYTHON
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -186,11 +186,10 @@ m1.fit(training_a, training_b.values.ravel())
 predicted_values = m1.predict(testing_a)
 print(confusion_matrix(testing_b,predicted_values))
 print(classification_report(testing_b,predicted_values))
-
 ```
 <H3>Output:</H3>
+<img width="825" height="436" alt="image" src="https://github.com/user-attachments/assets/42969c1a-82e9-488f-b6a7-c2e976d2d92b" />
 
-<img width="911" height="441" alt="image" src="https://github.com/user-attachments/assets/9db0aa0f-12b8-46b8-995a-59bd21d0515b" />
 
 <H3>Result:</H3>
 Thus, MLP is implemented for multi-classification using python.
